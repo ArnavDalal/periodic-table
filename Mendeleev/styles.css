@@ -1,0 +1,147 @@
+body{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+#start{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)
+    ),
+    url('https://media.istockphoto.com/id/1269267277/photo/3d-rendering-of-classic-bedroom-apartment-in-the-moonlight.jpg?s=612x612&w=0&k=20&c=EPkgObdwfsdRDCpqdt9O1yjYRRdtwa3vb3Lp-QEOZYw=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+#textBox{
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 80vw;
+    background-color: black;
+    border: solid 2px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    color: white;
+    font-family: "Doto", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings: "ROND" 0;
+    padding: 2px 10px;
+} h2:hover{
+    cursor: pointer;
+}
+    
+
+img {
+    margin-bottom: 2vh;
+    border: solid 2px rgb(255, 255, 255);
+    height: 35vh;
+    width: 15vw;
+}
+
+.option {
+    height: fit-content;
+    width: fit-content;
+    border: solid 2px white;
+    background-color: black;
+    opacity: 0;
+    display: flex;
+    flex: row;
+}
+
+.btn {
+    opacity: 0;
+    padding: 0;
+    height: 6vw;
+    width: 12vw;
+    color: white;
+    font-size: 1.2vw;
+    font-family: "Doto", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings: "ROND" 0;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 10%;
+} .btn:hover {
+    height: 7vw;
+    width: 14vw;
+    font-size: 2vw;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    color: black;
+    border: transparent;
+    background-color: white;
+} .btn:not(:hover) {
+    transition-duration: 0.2s;
+}
+
+#answerBox {
+    opacity: 0;
+    margin-top: 2vw;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: fit-content;
+    height: fit-content;
+    background-color: black;
+    border: solid 2px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Doto", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings: "ROND" 0;
+    font-size: 2vw;
+    border: solid 2px white;
+    color: white;
+} input {
+    font-family: "Doto", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings: "ROND" 0;
+    font-size: 2vw;
+    border: solid 2px white;
+    color: white;
+    background-color: transparent;
+    width: 20vw;
+    height: 3vw;
+    padding-left: 0.5vw;
+} label {
+    padding-left: 0.5vw;
+} .sendAnswer{
+    font-family: "Doto", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings: "ROND" 0;
+    font-size: 2vw;
+    border: solid 2px white;
+    color: white;
+    background-color: transparent;
+    margin: 2px;
+} .sendAnswer:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border-radius: 5%;
+    transition-duration: 0.5ms;
+}
